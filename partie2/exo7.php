@@ -3,11 +3,11 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta charset="UTF-8">
-        <title>PHP 1st Part - Exo 1</title>
+        <title>PHP 2nd Part - Exo 7</title>
         <link rel="shortcut icon" href="assets/img/doigt.png"/>
   <meta name="author" content="Badik76" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
   <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
   <!--Import materialize.css-->
   <link type="text/css" rel="stylesheet" href="./assets/import/Materialize/css/materialize.min.css"  media="screen" />
@@ -17,17 +17,34 @@
 </head>
     <body>
         <div>
-            <h1>PPH - Partie 1 : Les Variables.</h1>
-            <p>Créer une variable avec un contenu de notre choix et l'afficher.</p>
-            <div><p>J'affiche ma variable $name</p>
-                <?php
-        $name = "Ptite Biloute des Champs";
-        echo $name;
-        ?>
+            <h1>PPH - Partie 2 : Les Conditions.</h1>
+            <h4 class="red-text">Exercice 7 : </h4>
+            <p>Traduire ce code avec des if et des else :</p>
+            <div class="container">
+            <div class="row center">
+<div class="col l6 red-text"><?php
+          $number = rand(1, 2);
+          if ($number == 1) {
+              $isEasy = "true";
+          } else {
+              $isEasy = "false";
+          }
+
+        if ($isEasy == "true"){
+            echo "C'est facile, va au sexshop !";
+        } 
+        else 
+            {
+            echo "C'est difficile, retourne au bac à sable !";
+            echo " <br /> $isEasy";
+        }?>
+                </div>
+            <div class="col l6 green-text "><?php echo "$gender"?></div>
+            </div>
             </div>
         </div>
    <div class="container-fluid rem10">
-    2018 - Made by Badik 🖕 with <i class="fas fa-heart red-text rem10"></i>
+    2018 - Made by Badik 🖕 with <i class="fas fa-heart red-text"></i>
   </div>
   <!--Scripts-->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>

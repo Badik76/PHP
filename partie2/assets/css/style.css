@@ -1,0 +1,19 @@
+body {
+text-align: center;
+font-family: 'Mali', cursive;
+background-color:white;
+background-image:url(../img/bg_big2.jpg);
+background-size: 100%;
+color: white;
+}
+.rem10 {
+  font-size: 1rem;
+  font-style: italic;
+  border-top: 1px white solid;
+}
+h1 {
+   border-bottom: 1px #dd2c00 dashed;
+}
+.ml200 {
+    margin-left: 200px;
+}
