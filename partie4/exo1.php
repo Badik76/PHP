@@ -3,7 +3,7 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta charset="UTF-8">
-        <title>PHP 3th Part - Exo 1</title>
+        <title>PHP 4th Part - Exo 1</title>
         <link rel="shortcut icon" href="assets/img/doigt.png"/>
   <meta name="author" content="Badik76" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />

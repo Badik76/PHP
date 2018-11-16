@@ -3,7 +3,7 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta charset="UTF-8">
-        <title>PHP 4th Part - Exo 8</title>
+        <title>PHP 5th Part - Exo 2</title>
         <link rel="shortcut icon" href="assets/img/doigt.png"/>
   <meta name="author" content="Badik76" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
@@ -17,21 +17,28 @@
 </head>
     <body>
         <div>
-            <h1>PPH - Partie 4 : Les Fonctions.</h1>
-            <h4 class="red-text">Exercice 8 : </h4>
-            <p>Faire une fonction qui prend en paramètre trois nombres et qui renvoit la somme de ces nombres. <br />
-Tous les paramètres doivent avoir une valeur par défaut.</p>
+            <h1>PPH - Partie 5 : Les Tableaux.</h1>
+            <h4 class="red-text">Exercice 2 : </h4>
+            <p>Avec le tableau de l'exercice 1, afficher la valeur de la troisième ligne de ce tableau.</p>
             <div class="container">
-            <div class="row center"><div class="col l6 green-text ">Le calcul magique :</div>
+            <div class="row center"><div class="col l6 green-text ">OoOOooh le zoliiie Tabloïdable.</div>
                 <div class="col l6 red-text"><?php
-        $number1 = rand(0, 100);
-        $number2 = rand(0, 100);
-        $number3 = rand(0, 100);
-        echo $number1.' + '.$number2.' + '.$number3.' = ';
-function calculatriceduturfu($number1, $number2, $number3){
-      echo ($number1 + $number2 + $number3);
-} echo calculatriceduturfu($number1, $number2, $number3)
-        ?>
+               $mois = array(
+                   "janvier",
+                   "février",
+                   "mars",
+                   "avril",
+                   "mai",
+                   "juin",
+                   "juillet",
+                   "aout",
+                   "septembre",
+                   "octrobre",
+                   "novembre",
+                   "décembre",
+               );
+               print_r($mois[2]);
+            ?>
                 </div>
             </div>              
             </div>
