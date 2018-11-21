@@ -23,18 +23,18 @@
 Cela pourra être, par exemple, de la forme : <br />
 "Le département" + nom du département + "a le numéro" + numéro du département</p>
             <div class="container">
-            <div class="row center"><div class="col l6 green-text ">OoOOooh le zoliiie Tabloïdable.</div>
-                <div class="col l6 red-text"><?php
+            <div class="row center"><div class="col l3 green-text ">OoOOooh le zoliiie Tabloïdable.</div>
+                <div class="col l9 red-text"><?php
                $departement = array(
                    "02"=>"Aisne",
-                   "51"=>"Marnes",
+                   "51"=>"Marne",
                    "59"=>"Nord",
                    "60"=>"Oise",
                    "62"=>"Pas-de-Calais",
                    "80"=>"Somme",
                );
                foreach($departement as $x => $x_value) {
-    echo ' Je vous présente le département : '.$x_value.' ,dont le numéro est le suivant : '. $x.' |';
+    echo ' Je vous présente le département : '.$x_value.' ,dont le numéro est le suivant : '. $x.'<br />';
                }
             ?>
                 </div>

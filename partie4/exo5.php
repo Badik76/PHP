@@ -29,7 +29,7 @@
 
         function concat($number1, $string1)
                 {
-               echo $string1.' elle mesure pas moins de '.$number1.' cm';
+               return $string1.' elle mesure pas moins de '.$number1.' cm';
         }
                 echo concat($number1, $string1)
             ?>

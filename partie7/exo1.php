@@ -3,7 +3,7 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta charset="UTF-8">
-        <title>PHP 6th Part - Exo 5</title>
+        <title>PHP 7th Part - Exo 1</title>
         <link rel="shortcut icon" href="assets/img/doigt.png"/>
   <meta name="author" content="Badik76" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
@@ -17,18 +17,17 @@
 </head>
     <body>
         <div>
-            <h1>PPH - Partie 6 : Les Paramètres d'URL.</h1>
-            <h4 class="red-text">Exercice 5 : </h4>
+            <h1>PPH - Partie 7 : Les Paramètres d'URL.</h1>
+            <h4 class="red-text">Exercice 1 : </h4>
             <p>Faire une page index.php. <br />
-                Tester sur cette page que tous les paramètres de cette URL existent et les afficher: <br />
-                <a href='exo5.php?week=12'>exo5.php?week=12</a></p>
+                Tester sur cette page que le paramètre age existe et si c'est le cas l'afficher sinon le signaler :  <br />
+                </p>
             <div class="container">
-            <div class="row center"><div class="col l6 green-text "><a href='exo5.php?week=2'>Aller Hop, retirons les données, GRATOS !</a></div>
-                <div class="col l6 red-text"><?php
-             echo 'Il te reste '.$_GET['week'].' semaine à vivre !'.'<br />'
-                     . 'Profites du temps qu\'il te reste';
-               
-            ?>
+                <div class="row center"><div class="col l6 green-text "><a href='exo1.php?lastname=BenLaden&firstname=Oussama'>Aller Hop, retirons les données, GRATOS !</a></div>
+                <div class="col l6 red-text"><pre><?php  
+//var_dump($_GET);
+             echo $_GET['lastname'].' | '.$_GET['firstname'].' Ptite biloute du bled';
+            ?></pre>
                 </div>
             </div>              
             </div>

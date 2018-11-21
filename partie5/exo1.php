@@ -37,7 +37,7 @@
                    "novembre",
                    "décembre",
                );
-               print_r($mois);
+             echo nl2br(print_r($mois, true));
             ?>
                 </div>
             </div>              

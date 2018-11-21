@@ -3,7 +3,7 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta charset="UTF-8">
-        <title>PHP 6th Part - Exo 1</title>
+        <title>PHP 6th Part - Exo 2</title>
         <link rel="shortcut icon" href="assets/img/doigt.png"/>
   <meta name="author" content="Badik76" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
@@ -18,28 +18,16 @@
     <body>
         <div>
             <h1>PPH - Partie 6 : Les Paramètres d'URL.</h1>
-            <h4 class="red-text">Exercice 1 : </h4>
+            <h4 class="red-text">Exercice 2 : </h4>
             <p>Faire une page index.php. <br />
                 Tester sur cette page que tous les paramètres de cette URL existent et les afficher: <br />
                 index.php?lastname=Nemare&firstname=Jean</p>
             <div class="container">
-            <div class="row center"><div class="col l6 green-text ">OoOOooh le zoliiie Tabloïdable.</div>
+            <div class="row center"><div class="col l6 green-text "><a href='exo2.php?lastname=BenLaden&firstname=Oussama&age=65'>Aller Hop, retirons les données, GRATOS !</a></div>
                 <div class="col l6 red-text"><?php
-               $mois = array(
-                   "janvier",
-                   "février",
-                   "mars",
-                   "avril",
-                   "mai",
-                   "juin",
-                   "juillet",
-                   "aout",
-                   "septembre",
-                   "octrobre",
-                   "novembre",
-                   "décembre",
-               );
-               print_r($mois);
+             echo $_GET['lastname'].' | '.$_GET['firstname'].' Ptite biloute du bled, <br />'
+                     . 'Nous savons que tu as '.$_GET['age'].' piges ! Vieux débris.';
+               
             ?>
                 </div>
             </div>              

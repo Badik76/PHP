@@ -23,7 +23,7 @@
             <div class="container">
             <div class="row center"><div class="col l6 green-text ">OoOOooh le zoliiie Tabloïdable.</div>
                 <div class="col l6 red-text"><?php
-               $mois = array(
+               $mois = [
                    "janvier",
                    "février",
                    "mars",
@@ -36,7 +36,7 @@
                    "octrobre",
                    "novembre",
                    "décembre",
-               );
+               ];
                print_r($mois[2]);
             ?>
                 </div>

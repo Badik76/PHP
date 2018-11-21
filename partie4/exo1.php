@@ -25,9 +25,10 @@
                 <div class="col l6 red-text"><?php
         function Returntrue($true)
                 {
-                echo $true;
+                return true;
         }
         Returntrue('true');
+        var_dump(Returntrue($true))
             ?>
                 </div>
             </div>              

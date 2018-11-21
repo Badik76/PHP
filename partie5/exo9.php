@@ -25,13 +25,16 @@
                 <div class="col l6 red-text"><?php
                $departement = array(
                    "02"=>"Aisne",
-                   "51"=>"Marnes",
+                   "51"=>"Marne",
                    "59"=>"Nord",
                    "60"=>"Oise",
                    "62"=>"Pas-de-Calais",
                    "80"=>"Somme",
                );
-               print_r($departement);
+               foreach($departement as $key => $value){
+                   echo $value.' | ';
+               }
+            
             ?>
                 </div>
             </div>              

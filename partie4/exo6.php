@@ -25,12 +25,12 @@
             <div class="container">
             <div class="row center"><div class="col l6 green-text ">On compacte tranquillou</div>
                 <div class="col l6 red-text"><?php
-                $age = rand(0, 100);
+                $age = rand(80, 150);
                 $firstname = 'Hitler';
                 $name = "Adolfo";
         function concat($age, $firstname, $name)
                 {
-               echo 'Salutation '.$name.' '.$firstname.'. Tu es vieux, tu as '.$age.' ans';
+               return 'Salutation '.$name.' '.$firstname.'. Tu es vieux, tu as '.$age.' ans';
         }
                 echo concat($age, $firstname, $name)
             ?>

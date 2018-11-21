@@ -25,7 +25,7 @@
                 <div class="col l6 red-text"><?php
                $departement = array(
                    "02"=>"Aisne",
-                   "51"=>"Marnes",
+                   "51"=>"Marne",
                    "59"=>"Nord",
                    "60"=>"Oise",
                    "62"=>"Pas-de-Calais",

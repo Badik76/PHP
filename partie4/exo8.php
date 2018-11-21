@@ -29,7 +29,7 @@ Tous les paramètres doivent avoir une valeur par défaut.</p>
         $number3 = rand(0, 100);
         echo $number1.' + '.$number2.' + '.$number3.' = ';
 function calculatriceduturfu($number1, $number2, $number3){
-      echo ($number1 + $number2 + $number3);
+      return ($number1 + $number2 + $number3);
 } echo calculatriceduturfu($number1, $number2, $number3)
         ?>
                 </div>

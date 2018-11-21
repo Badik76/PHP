@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -20,27 +21,14 @@
             <h1>PPH - Partie 6 : Les Paramètres d'URL.</h1>
             <h4 class="red-text">Exercice 1 : </h4>
             <p>Faire une page index.php. <br />
-                Tester sur cette page que tous les paramètres de cette URL existent et les afficher: <br />
-                index.php?lastname=Nemare&firstname=Jean</p>
+                Tester sur cette page que le paramètre age existe et si c'est le cas l'afficher sinon le signaler :  <br />
+                </p>
             <div class="container">
-            <div class="row center"><div class="col l6 green-text ">OoOOooh le zoliiie Tabloïdable.</div>
-                <div class="col l6 red-text"><?php
-               $mois = array(
-                   "janvier",
-                   "février",
-                   "mars",
-                   "avril",
-                   "mai",
-                   "juin",
-                   "juillet",
-                   "aout",
-                   "septembre",
-                   "octrobre",
-                   "novembre",
-                   "décembre",
-               );
-               print_r($mois);
-            ?>
+                <div class="row center"><div class="col l6 green-text "><a href='exo1.php?lastname=BenLaden&firstname=Oussama'>Aller Hop, retirons les données, GRATOS !</a></div>
+                <div class="col l6 red-text"><pre><?php  
+//var_dump($_GET);
+             echo $_GET['lastname'].' | '.$_GET['firstname'].' Ptite biloute du bled';
+            ?></pre>
                 </div>
             </div>              
             </div>

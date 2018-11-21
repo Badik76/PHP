@@ -43,16 +43,16 @@ Gérer tous les cas.</p>
 function sexnage($age, $gender){
         if ($age >= 18){
             if ($gender == "Homme") {
-            echo "Doudou est un Grand Mââââle !";
+            return "Doudou est un Grand Mââââle !";
         } 
         else 
             {
-            echo "Louloute est Majeuuure et vaccinée !";
+            return "Louloute est Majeuuure et vaccinée !";
         }} 
         else if ($gender == "Homme") {
-            echo "Kirikou n'est pas grand mais il est vaillant !";
+            return "Kirikou n'est pas grand mais il est vaillant !";
         } else {
-            echo "Karaba est une petite sorcière !";
+            return "Karaba est une petite sorcière !";
         }
 } echo sexnage($age, $gender)
         ?>
