@@ -3,7 +3,7 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta charset="UTF-8">
-        <title>PHP 7th Part - Exo 1</title>
+        <title>PHP 7th Part - Exo 2</title>
         <link rel="shortcut icon" href="./assets/img/doigt.png"/>
         <meta name="author" content="Badik76" />
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
@@ -18,16 +18,16 @@
     <body>
         <div>
             <h1>PPH - Partie 7 : Les Formulaires.</h1>
-            <h4 class="red-text">Exercice 1 : </h4>
+            <h4 class="red-text">Exercice 2 : </h4>
             <p>Faire une page index.php. <br />
                 Créer un formulaire demandant le nom et le prénom. <br />
-                Ce formulaire doit rediriger vers la page user.php avec la méthode GET.</p>
+                Ce formulaire doit rediriger vers la page user.php avec la méthode POST.</p>
             <div class="container">
                 <div class="row center"><div class="col l3 green-text ">Aller Hop, retirons les données, GRATOS </div>
                     <div class="col l9 red-text">
                         <?php
                         $name = $firstname = "";
-                        include('formget.php');
+                        include('formpost.php');
                         ?>
                     </div>
                 </div>              
