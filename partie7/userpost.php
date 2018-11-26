@@ -3,7 +3,7 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta charset="UTF-8">
-        <title>PHP 7th Part - Exo 1</title>
+        <title>PHP 7th Part</title>
         <link rel="shortcut icon" href="./assets/img/doigt.png"/>
         <meta name="author" content="Badik76" />
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
@@ -18,7 +18,7 @@
     <body>
         <div>
             <h1>PPH - Partie 7 : Les Formulaires.</h1>
-            <h4 class="red-text">Exercice 1 : </h4>
+            <h2 class="red-text">User.php</h2>
             <p>Faire une page index.php. <br />
                 Créer un formulaire demandant le nom et le prénom. <br />
                 Ce formulaire doit rediriger vers la page user.php avec la méthode GET.</p>

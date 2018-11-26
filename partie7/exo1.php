@@ -17,7 +17,7 @@
     </head>
     <body>
         <div>
-            <h1>PPH - Partie 7 : Les Formulaires.</h1>
+            <h1>PHP - Partie 7 : Les Formulaires.</h1>
             <h4 class="red-text">Exercice 1 : </h4>
             <p>Faire une page index.php. <br />
                 Créer un formulaire demandant le nom et le prénom. <br />

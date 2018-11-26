@@ -3,7 +3,7 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta charset="UTF-8">
-        <title>PHP 7th Part - Exo 1</title>
+        <title>PHP 7th Part - User</title>
         <link rel="shortcut icon" href="./assets/img/doigt.png"/>
         <meta name="author" content="Badik76" />
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
@@ -17,8 +17,8 @@
     </head>
     <body>
         <div>
-            <h1>PPH - Partie 7 : Les Formulaires.</h1>
-            <h4 class="red-text">Exercice 1 : </h4>
+            <h1>PHP - Partie 7 : Les Formulaires.</h1>
+            <h2 class="red-text">User.php</h2>
             <p>Faire une page index.php. <br />
                 Créer un formulaire demandant le nom et le prénom. <br />
                 Ce formulaire doit rediriger vers la page user.php avec la méthode GET.</p>
@@ -27,9 +27,9 @@
                     <div class="col l9 red-text"><pre><?php
 // define variables and set to empty values
                             $nameErr = $firstnameErr = $comment = $gender = "";
-//                            echo __FILE__.'<br />';                            
+//                            echo __FILE__.'<br />';                         
 //                            echo basename(__FILE__);
-                            
+
                             if (isset($_GET['name']) and isset($_GET['firstname']) and isset($_GET['comment']) and isset($_GET['gender'])) {
 
                                 $name = test_input($_GET["name"]);
@@ -44,7 +44,7 @@
 
                                 if (!preg_match("/^[a-zA-Z ]*$/", $firstname)) {
                                     $firstnameErr = "Seulement des lettres et des espaces";
-                                }                             
+                                }
                             }
 
                             function test_input($data) {
@@ -53,10 +53,12 @@
                                 $data = htmlspecialchars($data);
                                 return $data;
                             }
-                           
-                            echo $gender.' <br />';                            
+
+                            echo $_GET['gender'] . ' <br />';
+
+                            echo $_GET["name"] . ' est mon prénom tandis que ' . $_GET["firstname"] . ' est mon nom de famille <br />';
                             
-                            echo $name . ' est mon prénom tandis que ' . $firstname . ' est mon nom de famille';
+                          
                             ?></pre>
                 </div>
             </div>              

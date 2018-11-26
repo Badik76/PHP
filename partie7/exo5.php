@@ -29,7 +29,7 @@
                 <div class="row center"><div class="col l3 green-text ">Aller Hop, retirons les données, GRATOS </div>
                     <div class="col l9 red-text">
                         <?php
-                        $name = $firstname = "";
+                        $name = $firstname = $gender = "";
                         include('formget.php');
                         ?>
                     </div>

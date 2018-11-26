@@ -39,7 +39,7 @@
                             "décembre"
                         );
                         foreach ($mois as $value) {
-                            echo $value.' | ';
+                            echo $value . ' | ';
                         }
                         ?>
                     </div>

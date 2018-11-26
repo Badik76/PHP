@@ -1,12 +1,13 @@
-<form method="get" action="userget.php">  
+
+<form method="get" action="userget.php">
     <?php
-    if (isset($_GET['exo']) and $_GET['exo']>=5) {
+    if (isset($_GET['exo']) and $_GET['exo'] >= 5) {
         ?>
-    <select name="gender">
-        <option>Monsieur</option>
-        <option>Madame</option>
-    </select>
-    <?php 
+        <select name="gender">
+            <option>Monsieur</option>
+            <option>Madame</option>
+        </select>
+        <?php
     }
     ?>
     Prénom: <input type="text" name="name" value="<?php echo $name; ?>">
